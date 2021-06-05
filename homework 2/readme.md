@@ -5,8 +5,11 @@ Logistic Regression
 Parameters:
 
 learning_rate = .01  # Natural learning rate constant
+
 penalty = 0.001  # penalty (lambda) constant
+
 epochs = 10  # Number of iterations
+
 penalty_rates_to_try = [0, 0.001, .01, .02, .003, .02, 0, .025, .04, .7, .8, .9]
 
 Dataset 1 Best lambda is 0.001 with an accuracy of 91.42857142857143 Correct predictions: 421/478 Accuracy: 88.0753%
